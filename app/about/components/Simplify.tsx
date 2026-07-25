@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function BuiltToSimplify() {
+export default function Simplify() {
     return (
         <section className="bg-white px-6 py-20 lg:px-10">
             <div className="mx-auto max-w-6xl">

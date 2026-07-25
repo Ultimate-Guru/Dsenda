@@ -12,7 +12,7 @@ const ILLUSTRATIONS: IllustrationCard[] = [
     { id: "success", alt: "A man celebrating a win with a laptop", src: "/man.png" },
 ];
 
-export default function TransformingSection() {
+export default function Transform() {
     return (
         <section className="bg-white px-6 py-20 lg:px-10">
 

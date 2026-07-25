@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function MissionVision() {
+export default function Mission() {
     return (
         <section className="bg-white px-6 py-20 lg:px-10">
             <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-20">
