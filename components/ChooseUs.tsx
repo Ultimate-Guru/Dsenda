@@ -1,4 +1,5 @@
 import { TrendingUp } from "lucide-react";
+import Image from "next/image";
 
 const points = [
     {
@@ -21,7 +22,8 @@ const points = [
 
 const ChooseUs = () => {
     return (
-        <section className="py-20 px-6 lg:px-8 max-w-7xl mx-auto">
+        <section className="relative py-30 px-6 lg:px-8 max-w-7xl mx-auto">
+            <Image src="/top-right.png" alt="Hero Dots" width={120} height={50} className="absolute right-0 top-10" />
             <h2 className="text-3xl lg:text-4xl font-display font-semibold text-center text-[#191919]">
                 More Than Analytics
                 <br />
