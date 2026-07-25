@@ -2,10 +2,6 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
-.heading {
-    font-family: "Manrope", sans-serif;
-}
-
-.body {
-    font-family: "Sora", sans-serif;
+@theme {
+    --font-sora: var(--font-sora);
 }
