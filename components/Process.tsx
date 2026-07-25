@@ -41,11 +41,16 @@ const Process = () => {
                 meaningful insights.
             </p>
 
-            <div className="flex flex-wrap justify-center gap-0 mt-16">
+            {/* "group" here lets every card listen for a hover anywhere in this row */}
+            <div className="group flex flex-wrap justify-center gap-0 mt-16">
                 {steps.map((step, i) => (
                     <div
                         key={step.number}
-                        className={`w-64 -ml-6 first:ml-0 bg-white border border-[#4F46E5] rounded-2xl p-6 shadow-sm transition-transform hover:-translate-y-2 hover:z-10 ${rotations[i]}`}>
+                        className={`w-64 -ml-6 first:ml-0 bg-white border border-[#4F46E5] rounded-2xl p-6 shadow-md
+                            transition-transform duration-300 ease-out
+                            ${rotations[i]} group-hover:rotate-0
+                            hover:-translate-y-2 hover:z-10`}
+                    >
                         <p className="text-sm font-semibold text-[#4F46E5]">
                             {step.number}
                         </p>
