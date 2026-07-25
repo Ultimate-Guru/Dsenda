@@ -44,6 +44,7 @@ const Hero = () => {
               width={600}
               height={450}
               className="w-full h-full object-cover"
+              loading="lazy"
             />
           </div>
         </div>
