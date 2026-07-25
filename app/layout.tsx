@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Sora } from "next/font/google";
 import "./globals.css";
+import Navbar from '@/components/Navbar'
 
 const sora = Sora({
   variable: "--font-sora",
@@ -19,7 +20,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`h-full antialiased ${sora.variable}`}>
-      <body className="min-h-full flex flex-col font-sora">{children}</body>
+      <body className="min-h-full flex flex-col font-sora">
+        <Navbar />
+        <main>
+          {children}
+        </main>
+      </body>
     </html>
   );
 }
