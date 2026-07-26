@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from "react";
-import { Plus, X } from "lucide-react";
+import { Plus } from "lucide-react";
 
 const faqs = [
     {
@@ -62,15 +62,11 @@ const FAQ = () => {
                                 onClick={() => toggle(i)}
                                 className="w-full flex items-center justify-between py-5 text-left cursor-pointer"
                             >
-                                <span className="text-foreground text-sm lg:text-base">
+                                <span className="text-[#191919] text-sm lg:text-base">
                                     {faq.question}
                                 </span>
                                 <span className="w-7 h-7 rounded-full bg-black flex items-center justify-center shrink-0 ml-4">
-                                    {isOpen ? (
-                                        <X className="w-3.5 h-3.5 text-white" />
-                                    ) : (
-                                        <Plus className="w-3.5 h-3.5 text-white" />
-                                    )}
+                                    <Plus className={`text-white h-4 w-4 transition-transform duration-200 ${isOpen ? "rotate-45" : ""}`} />
                                 </span>
                             </button>
                             <div
@@ -79,7 +75,7 @@ const FAQ = () => {
                                 style={{ display: "grid" }}
                             >
                                 <div className="overflow-hidden">
-                                    <p className="text-sm text-muted-foreground pr-10">
+                                    <p className="text-sm pr-10 text-[#191919]/80">
                                         {faq.answer}
                                     </p>
                                 </div>

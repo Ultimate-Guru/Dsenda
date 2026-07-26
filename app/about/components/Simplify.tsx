@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function Simplify() {
     return (
-        <section className="bg-white px-6 py-20 lg:px-10">
+        <section className="px-6 py-20 lg:px-10">
             <div className="mx-auto max-w-6xl">
-                <h2 className="mb-12 text-center text-3xl font-bold leading-tight text-slate-900 sm:text-4xl">
+                <h2 className="mb-12 text-center text-3xl font-bold leading-tight text-[#191919] sm:text-4xl">
                     Built to Simplify
                     <br />
                     Business <span className="text-[#4F46E5]">Intelligence</span>
