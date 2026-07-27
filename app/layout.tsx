@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`h-full antialiased ${sora.variable}`}>
-      <body className="min-h-full flex flex-col font-sora bg-[#F9FAF9]">
+      <body className="min-h-full flex flex-col font-sora bg-[#F9FAF9] scroll-smooth">
         <Navbar />
         <main>
           {children}
