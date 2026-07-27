@@ -14,7 +14,7 @@ const ILLUSTRATIONS: IllustrationCard[] = [
 
 export default function Transform() {
     return (
-        <section className="bg-white px-6 py-20 lg:px-10">
+        <section className="px-6 py-20 lg:px-10">
 
             <div className="mx-auto max-w-6xl">
 

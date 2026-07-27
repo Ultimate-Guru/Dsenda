@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mission() {
     return (
-        <section className="bg-white px-6 py-20 lg:px-10">
+        <section className="px-6 py-20 lg:px-10">
             <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-20">
                 <div className="relative mx-auto aspect-3/4 w-full max-w-sm overflow-hidden rounded-3xl lg:mx-0">
                     <Image
