@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { ArrowRight, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -41,8 +41,8 @@ const Navbar = () => {
                   key={link.name}
                   href={link.path}
                   className={`text-[15px] lg:text-[16px]  whitespace-nowrap px-3 py-1.5 rounded-full transition-all duration-300 ${isActive
-                      ? "bg-[#4F46E5]/10 text-[#4F46E5]"
-                      : "text-foreground hover:text-[#4F46E5]"
+                    ? "bg-[#4F46E5]/10 text-[#4F46E5]"
+                    : "text-foreground hover:text-[#4F46E5]"
                     }`}
                 >
                   {link.name}
@@ -55,13 +55,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center gap-4 shrink-0">
             <button className="flex items-center gap-2 bg-[#4F46E5] hover:bg-[#4338CA] border-[#F9FAF9] text-white rounded-lg transition-all duration-300 cursor-pointer px-3 h-11 text-sm">
               Get Started
-              <Image
-                src="/arrow-right.png"
-                alt="Right Arrows"
-                width={16}
-                height={16}
-                className="mb-1"
-              />
+              <ArrowRight className="h-4 w-4 mb-1" />
             </button>
           </div>
 
@@ -83,8 +77,8 @@ const Navbar = () => {
       {/* Mobile Menu - Full Screen Overlay */}
       <div
         className={`md:hidden fixed inset-0 bg-white z-40 transition-all duration-500 ${isMobileMenuOpen
-            ? "opacity-100 pointer-events-auto"
-            : "opacity-0 pointer-events-none"
+          ? "opacity-100 pointer-events-auto"
+          : "opacity-0 pointer-events-none"
           }`}
         style={{ top: 0 }}
       >
@@ -116,8 +110,8 @@ const Navbar = () => {
           {/* Bottom CTAs */}
           <div
             className={`flex gap-4 pt-8 border-t border-foreground/10 transition-all duration-500 ${isMobileMenuOpen
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-4"
+              ? "opacity-100 translate-y-0"
+              : "opacity-0 translate-y-4"
               }`}
             style={{ transitionDelay: isMobileMenuOpen ? "300ms" : "0ms" }}
           >
