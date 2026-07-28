@@ -41,8 +41,8 @@ const Navbar = () => {
                 <Link
                   key={link.name}
                   href={link.path}
-                  className={`text-[15px] lg:text-[16px]  whitespace-nowrap px-3 py-1.5 rounded-full transition-all duration-300 ${isActive
-                    ? "bg-[#4F46E5]/10 text-[#4F46E5]"
+                  className={`text-[15px] lg:text-[16px] whitespace-nowrap px-3 py-1.5 rounded-xl transition-all duration-300 ${isActive
+                    ? "bg-[#EDEDFC] text-[#4F46E5]"
                     : "text-foreground hover:text-[#4F46E5]"
                     }`}
                 >
