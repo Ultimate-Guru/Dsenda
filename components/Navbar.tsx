@@ -29,6 +29,7 @@ const Navbar = () => {
               alt="Dsenda Logo"
               width={80}
               height={80}
+              loading="lazy"
             />
           </Link>
 

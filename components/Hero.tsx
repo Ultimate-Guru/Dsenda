@@ -58,7 +58,7 @@ const Hero = () => {
             className="flex items-center gap-3 border border-[#B8B8B8] rounded-2xl px-5 py-4">
               
             <div className="w-9 h-9 rounded-full bg-[#4F46E5] flex items-center justify-center shrink-0">
-              <Image src="/profile.png" alt="" width={18} height={18} />
+              <Image src="/profile.png" alt="" width={18} height={18} loading="lazy" />
             </div>
 
             <div>
