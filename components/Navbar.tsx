@@ -58,7 +58,7 @@ const Navbar = () => {
                 href="/contact" 
                 className="flex items-center gap-2 text-white rounded-lg bg-[#4F46E5] shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA] cursor-pointer px-3 h-11 text-sm">
               Get Started
-              <ArrowRight className="h-4 w-4" />
+              <ArrowRight className="h-4 w-4 mb-1" />
             </Link>
           </div>
 
@@ -118,12 +118,12 @@ const Navbar = () => {
               }`}
             style={{ transitionDelay: isMobileMenuOpen ? "300ms" : "0ms" }}
           >
-            <button
-              className=" flex-1 bg-[#4F46E5] hover:bg-[#4338CA] text-white rounded-full h-14 text-base"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
+            <Link
+              href="/contact"
+              className="flex items-center justify-center flex-1 bg-[#4F46E5] hover:bg-[#4338CA] text-white rounded-full h-14 text-base"
+              onClick={() => setIsMobileMenuOpen(false)}>
               Get Started
-            </button>
+            </Link>
           </div>
         </div>
       </div>
