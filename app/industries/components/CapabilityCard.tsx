@@ -9,7 +9,7 @@ export default function CapabilityCard({ title, description }: Capability) {
             <div className="relative mt-auto h-64 w-full overflow-hidden sm:h-60 lg:h-56">
                 <div className="absolute inset-x-0 bottom-16 top-0">
                     <Image
-                        src="/business.png"
+                        src="/business.svg"
                         alt="Capability illustration"
                         fill
                         loading="lazy"

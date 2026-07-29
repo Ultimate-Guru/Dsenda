@@ -25,7 +25,7 @@ export default function SolutionsHero() {
 
             <div className="relative mx-auto mt-16 h-88.25 w-82.25 max-w-md overflow-hidden rounded-4xl bg-[#EDEDFC] rounded-bl-4xl rounded-br-[200px]">
                 <Image
-                    src="/man.png"
+                    src="/man.svg"
                     alt="Business professional celebrating with a laptop"
                     fill
                     className="object-scale-down"

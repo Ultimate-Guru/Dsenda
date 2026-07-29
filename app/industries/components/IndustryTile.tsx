@@ -9,7 +9,7 @@ export default function IndustryTile({ industry }: { industry: IndustryCard }) {
             {industry.illustration && (
                 <div className="pointer-events-none absolute top-0 right-0 hidden w-[46%] max-w-64 lg:block">
                     <Image
-                        src="/preparation.png"
+                        src="/preparation.svg"
                         alt="Preparation"
                         width={230}
                         height={200}

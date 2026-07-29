@@ -22,7 +22,7 @@ export default function ComprehensiveAnalytics() {
 
                     <div className="relative mt-10 h-80 w-full">
                         <Image
-                            src="/business.png"
+                            src="/business.svg"
                             alt="Person analyzing a growth chart"
                             fill
                             className="object-contain object-bottom-right"
@@ -43,7 +43,7 @@ export default function ComprehensiveAnalytics() {
 
                     <div className="relative mt-8 h-64 w-full">
                         <Image
-                            src="/automated.png"
+                            src="/automated.svg"
                             alt="Person presenting a dashboard with charts"
                             fill
                             className="object-contain object-bottom-right"
@@ -65,7 +65,7 @@ export default function ComprehensiveAnalytics() {
 
                         <div className="relative mt-8 h-56 w-full">
                             <Image
-                                src="/strategy.png"
+                                src="/strategy.svg"
                                 alt="Person reviewing insights with a magnifying glass"
                                 fill
                                 className="object-contain object-bottom-right"
@@ -85,7 +85,7 @@ export default function ComprehensiveAnalytics() {
 
                         <div className="relative mt-8 h-48 w-full">
                             <Image
-                                src="/preparation.png"
+                                src="/preparation.svg"
                                 alt="Team collaborating around a data dashboard"
                                 fill
                                 className="object-contain object-bottom-right"

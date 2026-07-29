@@ -25,7 +25,7 @@ const IndustryHero = () => {
       </div>
 
       <div className="aspect-4/3 w-full">
-        <Image src="/industry.png" alt="Industry Depiction" loading="lazy" width={600} height={400} />
+        <Image src="/industry.svg" alt="Industry Depiction" loading="lazy" width={600} height={400} />
       </div>
 
     </section>

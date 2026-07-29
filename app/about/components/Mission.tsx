@@ -6,7 +6,7 @@ export default function Mission() {
             <div className="mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-2 lg:gap-20">
                 <div className="relative mx-auto aspect-3/4 w-full max-w-sm overflow-hidden rounded-3xl lg:mx-0">
                     <Image
-                        src="/mission.png"
+                        src="/mission.svg"
                         alt="Dsenda team member"
                         fill
                         className="object-cover"

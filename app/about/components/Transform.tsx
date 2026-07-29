@@ -8,8 +8,8 @@ interface IllustrationCard {
 
 const ILLUSTRATIONS: IllustrationCard[] = [
     { id: "presenting", alt: "A lady presenting data on a tablet", src: "/lady.png" },
-    { id: "handshake", alt: "Two colleagues shaking hands", src: "/people.png" },
-    { id: "success", alt: "A man celebrating a win with a laptop", src: "/man.png" },
+    { id: "handshake", alt: "Two colleagues shaking hands", src: "/people.svg" },
+    { id: "success", alt: "A man celebrating a win with a laptop", src: "/man.svg" },
 ];
 
 export default function Transform() {
