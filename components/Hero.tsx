@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Play } from "lucide-react";
+import Link from "next/link"
 
 const stats = [
   { value: "250+", label: "Partners & Customers" },
@@ -25,9 +26,11 @@ const Hero = () => {
           </p>
 
           <div className="flex items-center gap-4 mt-8">
-            <button className="bg-[#4F46E5] hover:bg-[#4338CA] border-[#F9FAF9] text-white rounded-lg px-3 h-11 text-sm transition-colors cursor-pointer">
+            <Link
+                href="/contact" 
+                className="inline-flex items-center justify-center bg-[#4F46E5] text-white rounded-lg px-3 h-11 text-sm cursor-pointer">
               Get Started
-            </button>
+            </Link>
             <button className="flex items-center gap-2 border rounded-lg px-3 h-11 text-sm text-[#191919] border-[#C8C6F7] transition-colors cursor-pointer">
               Watch Demo
               <Play className="w-4 h-4" />

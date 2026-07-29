@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link"
 
 const DataPotential = () => {
     return (
@@ -29,10 +30,12 @@ const DataPotential = () => {
                         Dsenda transforms complex business data into meaningful insights through intelligent analytics, interactive dashboards, and actionable reports. So instead of guessing what&apos;s happening in your business, you&apos;ll know exactly where you stand and what to do next.
                     </p>
 
-                    <button className="flex items-center gap-2 bg-[#4F46E5] hover:bg-[#4338CA] text-white rounded-lg px-3 h-11 text-sm transition-colors cursor-pointer">
+                    <Link
+                        href="/contact"
+                        className="flex items-center gap-2 bg-[#4F46E5] text-white rounded-lg px-3 h-11 text-sm shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA] cursor-pointer">
                         Contact Our Team
                         <ArrowRight className="w-4 h-4" />
-                    </button>
+                    </Link>
                 </div>
             </div>
         </section>

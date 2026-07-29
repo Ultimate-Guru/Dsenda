@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link"
 
 const Banner = () => {
     return (
@@ -14,10 +15,12 @@ const Banner = () => {
                         Let&apos;s build an analytics solution tailored to your industry and
                         business goals.
                     </p>
-                    <button className="body flex items-center gap-2 bg-[#4F46E5] hover:bg-[#4338CA] text-white rounded-lg px-3 h-11 text-sm mt-6 transition-colors">
+                    <Link
+                        href="/contact"
+                        className="body inline-flex items-center gap-2 bg-[#4F46E5] hover:bg-[#4338CA] text-white rounded-lg px-3 h-11 text-sm mt-6 shadow-[0_4px_0_#C8C6F7] transition-colors">
                         Contact Our Team
                         <ArrowRight className="w-4 h-4" />
-                    </button>
+                    </Link>
                 </div>
 
                 <div className="h-64 md:h-full">
