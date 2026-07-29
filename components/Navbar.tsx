@@ -25,7 +25,7 @@ const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2 group shrink-0">
             <Image
-              src="/dsenda_logo.png"
+              src="/DsendaLogo.svg"
               alt="Dsenda Logo"
               width={80}
               height={80}

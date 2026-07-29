@@ -57,7 +57,7 @@ const Footer = () => {
     <footer className="px-6 lg:px-8 max-w-7xl mx-auto py-12 border-t border-[#EDEDFC]">
       <div className="flex flex-col lg:flex-row lg:justify-between gap-10">
         <div>
-          <Image src="/dsenda_logo.png" alt="Dsenda Logo" width={80} height={80} />
+          <Image src="/DsendaLogo.svg" alt="Dsenda Logo" width={80} height={80} />
           <div className="flex items-center gap-4 mt-6">
             {socials.map(({ icon: Icon, href }, i) => (
               <a
