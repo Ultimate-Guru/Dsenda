@@ -22,7 +22,7 @@ const Banner = () => {
 
                 <div className="h-64 md:h-full">
                     <Image
-                        src="/banner.png"
+                        src="/banner.svg"
                         alt="Two people exchanging a shopping bag"
                         width={600}
                         height={400}

@@ -4,17 +4,17 @@ const features = [
     {
         title: "Business Intelligence",
         description: "Turn complex data into clear insights for smarter business decisions.",
-        image: "/business.png",
+        image: "/business.svg",
     },
     {
         title: "Automated Reporting",
         description: "Simplify reporting with automated workflows.",
-        image: "/automated.png",
+        image: "/automated.svg",
     },
     {
         title: "Strategic Insights",
         description: "Make informed decisions with confidence.",
-        image: "/strategy.png",
+        image: "/strategy.svg",
     },
 ];
 

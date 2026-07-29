@@ -13,7 +13,7 @@ const DataPotential = () => {
             <div className="grid md:grid-cols-2 gap-12 items-center mt-14">
                 <div className="">
                     <Image
-                        src="/data.png"
+                        src="/Vector_1.svg"
                         alt="Two friends laughing while looking at a phone"
                         width={600}
                         height={500}
