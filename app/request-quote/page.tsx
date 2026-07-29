@@ -1,8 +1,16 @@
-import React from 'react'
+import QuoteHero from "./components/QuoteHero"
+import QuoteForm from "./components/QuoteForm"
+import ProcessSteps from "./components/ProcessSteps"
+import Footer from "@/components/Footer"
 
 const page = () => {
   return (
-    <div>page</div>
+    <main>
+      <QuoteHero />
+      <QuoteForm />
+      <ProcessSteps />
+      <Footer />
+    </main>
   )
 }
 
