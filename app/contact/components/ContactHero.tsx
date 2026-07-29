@@ -5,7 +5,7 @@ export default function ContactHero() {
   return (
     <section className="px-6 pb-10 pt-36 lg:px-8">
       <div className="mx-auto max-w-3xl text-center">
-        <h1 className="text-4xl font-semibold leading-tight text-[#191919] sm:text-5xl">
+        <h1 className="text-4xl font-semibold leading-tight tracking-tight text-[#191919] sm:text-5xl">
           Let&apos;s Talk About Your
           <span className="block">
             Business <span className="text-[#4F46E5]">Data</span>

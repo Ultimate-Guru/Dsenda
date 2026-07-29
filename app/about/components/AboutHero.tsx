@@ -25,7 +25,7 @@ export default function AboutHero() {
                     href="/contact"
                     className="mt-8 inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-3 text-sm font-semibold text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]" >
                     Get Started
-                    <ArrowRight className="w-4 h-4" />
+                    <ArrowRight className="w-4 h-4 mb-1" />
                 </Link>
             </div>
 

@@ -4,10 +4,10 @@ const formEndpoint =
   process.env.NEXT_PUBLIC_FORMINIT_ENDPOINT || "https://forminit.com/f/YOUR_FORM_ID";
 
 const fieldClassName =
-  "mt-4 w-full border-0 bg-transparent p-0 text-sm text-[#191919] outline-none placeholder:text-transparent";
+  "mt-4 w-full rounded-2xl border border-[#D1D5DB] bg-white px-4 py-3 text-sm text-[#111827] outline-none transition duration-150 placeholder:text-[#9CA3AF] focus:border-[#4F46E5] focus:ring-2 focus:ring-[#C7D2FE]/60";
 
 const labelClassName =
-  "block text-[11px] font-semibold uppercase tracking-[0.12em] text-[#191919]/25";
+  "block text-[11px] font-semibold uppercase tracking-[0.12em] text-[#4B5563]";
 
 export default function ContactForm() {
   return (
@@ -16,7 +16,7 @@ export default function ContactForm() {
         id="contact-form"
         action={formEndpoint}
         method="POST"
-        className="mx-auto min-h-[520px] w-full max-w-[560px] border border-[#B8B8B8] bg-[#F9FAF9] px-8 py-10 shadow-[3px_4px_0_rgba(25,25,25,0.18)] sm:px-10"
+        className="mx-auto min-h-130 w-full max-w-140 border border-[#B8B8B8] bg-[#F9FAF9] px-8 py-10 shadow-[3px_4px_0_rgba(25,25,25,0.18)] sm:px-10"
       >
         <h2 className="text-2xl font-semibold text-[#191919] sm:text-3xl">
           Send us a message
@@ -61,8 +61,8 @@ export default function ContactForm() {
               id="subject"
               name="fi-text-subject"
               type="text"
-              defaultValue="Product Inquiry"
-              className={`${fieldClassName} placeholder:text-[#191919]`}
+              placeholder="Product Inquiry"
+              className={fieldClassName}
             />
           </div>
 
