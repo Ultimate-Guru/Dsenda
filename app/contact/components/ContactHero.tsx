@@ -19,7 +19,7 @@ export default function ContactHero() {
         </p>
 
         <Link
-          href="/contact-form"
+          href="/request-quote"
           className="mt-7 inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-[#4F46E5] px-3 text-sm font-medium text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]">
           Schedule A Consultation
           <ArrowRight className="h-4 w-4" />

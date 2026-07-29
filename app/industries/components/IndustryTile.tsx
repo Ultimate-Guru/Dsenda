@@ -42,7 +42,7 @@ export default function IndustryTile({ industry }: { industry: IndustryCard }) {
                     {industry.cta && (
                         <Link
                             href={industry.cta.href}
-                            className="inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#3c3fb2]"
+                            className="inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-2.5 text-sm font-medium text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]"
                         >
                             {industry.cta.label}
                             <ArrowRight className="h-4 w-4 mb-1" />

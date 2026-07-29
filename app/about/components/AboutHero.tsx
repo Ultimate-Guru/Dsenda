@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ArrowRight } from "lucide-react"
 
 export default function AboutHero() {
     return (
@@ -21,11 +22,10 @@ export default function AboutHero() {
                 </p>
 
                 <Link
-                    href="/get-started"
-                    className="mt-8 inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#4338CA]"
-                >
+                    href="/contact"
+                    className="mt-8 inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-3 text-sm font-semibold text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]" >
                     Get Started
-                    <span aria-hidden>&rarr;</span>
+                    <ArrowRight className="w-4 h-4" />
                 </Link>
             </div>
 

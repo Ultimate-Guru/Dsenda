@@ -18,7 +18,7 @@ export default function CapabilitiesSection() {
                 </div>
                 <Link
                     href="/solutions"
-                    className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-[#4F46E5] px-4 py-2.5 text-sm font-medium text-white transition-colors hover:bg-[#3a30c0]"
+                    className="inline-flex shrink-0 items-center gap-2 rounded-lg bg-[#4F46E5] px-4 py-2.5 text-sm font-medium text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]"
                 >
                     Explore Solutions
                     <ArrowRight className="h-4 w-4" />

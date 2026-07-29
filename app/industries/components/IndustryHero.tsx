@@ -17,7 +17,7 @@ const IndustryHero = () => {
         </p>
         <Link
           href="/solutions"
-          className="mt-8 inline-flex items-center gap-2 rounded-lg px-5 py-3 text-sm font-medium text-white bg-[#4F46E5] transition-colors hover:bg-[#3c39b4]">
+          className="mt-8 inline-flex items-center gap-2 rounded-lg px-5 py-3 text-sm font-medium text-white bg-[#4F46E5] shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]">
           Explore Solutions
           <ArrowRight className="h-4 w-4" />
         </Link>

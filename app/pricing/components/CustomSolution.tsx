@@ -21,7 +21,7 @@ export default function CustomSolution() {
                     </p>
                     <Link 
                         href="/request-quote" 
-                        className="mt-7 inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-3 text-sm font-medium text-white transition-colors hover:bg-[#4338CA]">
+                        className="mt-7 inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-3 text-sm font-medium text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]">
                         Request A Quote
                         <ArrowRight size={16} />
                     </Link>
