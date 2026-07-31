@@ -77,7 +77,7 @@ export default function PricingCard({ plan }: PricingCardProps) {
             </Link>
 
             {/* Features */}
-            <ul className="mt-8 flex flex-col gap-3">
+            <ul className="mt-9 flex flex-col gap-3 aspect-4/4">
                 {features.map((feature) => (
                     <li
                         key={feature}
