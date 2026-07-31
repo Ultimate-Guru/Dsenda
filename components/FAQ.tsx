@@ -45,7 +45,7 @@ const FAQ = () => {
 
     return (
         <section className="py-20 px-6 lg:px-8 max-w-3xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-display font-semibold text-center text-foreground">
+            <h2 className="text-3xl lg:text-4xl font-semibold text-center">
                 Have Questions? We&apos;ve Got <span className="text-[#4F46E5]">Answers.</span>
             </h2>
             <p className="body text-muted-foreground text-center mt-4  mx-auto">

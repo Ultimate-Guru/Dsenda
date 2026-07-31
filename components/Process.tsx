@@ -31,12 +31,12 @@ const rotations = ["rotate-15", "-rotate-15", "rotate-15", "-rotate-15"];
 const Process = () => {
     return (
         <section className="py-24 px-6 lg:px-8 max-w-7xl mx-auto overflow-hidden">
-            <h2 className="text-3xl lg:text-4xl font-display font-semibold text-center text-foreground">
+            <h2 className="text-3xl lg:text-4xl font-semibold text-center">
                 From Raw Data to
                 <br />
                 Business <span className="text-[#4F46E5]">Growth</span>
             </h2>
-            <p className="body text-muted-foreground text-center mt-4 max-w-md mx-auto">
+            <p className="text-center mt-4 max-w-md mx-auto">
                 A simple four-step process designed to turn your business data into
                 meaningful insights.
             </p>
@@ -54,10 +54,10 @@ const Process = () => {
                         <p className="text-sm font-semibold text-[#4F46E5]">
                             {step.number}
                         </p>
-                        <h3 className="body font-semibold text-foreground mt-2">
+                        <h3 className="body font-semibold mt-2">
                             {step.title}
                         </h3>
-                        <p className="text-xs text-muted-foreground mt-20 leading-relaxed">
+                        <p className="text-xs mt-20 leading-relaxed">
                             {step.description}
                         </p>
                     </div>

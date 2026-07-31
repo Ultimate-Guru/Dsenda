@@ -5,7 +5,7 @@ import Link from "next/link"
 const DataPotential = () => {
     return (
         <section className="py-20 px-6 lg:px-8 max-w-7xl mx-auto">
-            <h2 className="text-3xl lg:text-4xl font-display font-semibold text-center text-foreground">
+            <h2 className="text-3xl lg:text-4xl font-semibold text-center">
                 Your Data Has More Potential
                 <br />
                 Than You <span className="text-[#4F46E5]">Think</span>

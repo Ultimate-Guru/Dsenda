@@ -7,7 +7,7 @@ const Banner = () => {
         <section className="px-6 lg:px-8 max-w-7xl mx-auto pb-20">
             <div className="bg-[#EDEDFC] rounded-3xl overflow-hidden grid md:grid-cols-2 items-center">
                 <div className="p-10 lg:p-14">
-                    <h2 className="text-2xl lg:text-3xl font-display font-semibold text-[#191919] leading-tight">
+                    <h2 className="text-2xl lg:text-3xl font-display font-semibold text-[#191919">
                         Turn Your Data Into Your Greatest Business{" "}
                         <span className="text-[#4F46E5]">Asset</span>
                     </h2>
