@@ -10,7 +10,7 @@ export default function PricingHero() {
                 <span className="text-[#4F46E5]">Business</span>
             </h1>
 
-            <p className="mx-auto mt-5 max-w-xl text-base text-gray-500">
+            <p className="mx-auto mt-5 max-w-xl text-base text-[#191919]">
                 Whether you&apos;re a startup, a growing business, or a large
                 enterprise, Dsenda offers flexible analytics solutions tailored to
                 your goals and requirements.

@@ -22,12 +22,12 @@ const QuoteHero = () => {
                 </Link>
             </div>
 
-            <div className="relative aspect-square w-full max-w-md justify-self-center rounded-4xl rounded-br-[200px] bg-[#EDEDFC] lg:justify-self-end overflow-hidden">
+            <div className="relative aspect-square w-full max-w-sm justify-self-center rounded-4xl rounded-br-[200px] bg-[#EDEDFC] lg:justify-self-end overflow-hidden">
                 <Image
                     src="/people.svg"
                     alt="Business professionals shaking hands"
                     fill
-                    className="object-contain object-bottom-right p-8 mt-20"
+                    className="object-contain object-bottom-right p-8 mt-14"
                     priority
                 />
             </div>
