@@ -14,7 +14,7 @@ export default function CustomSolution() {
                         Need Something <br />
                         <span className="text-[#4F46E5]">Tailored?</span>
                     </h2>
-                    <p className="mt-5 max-w-sm text-sm leading-relaxed text-gray-400">
+                    <p className="mt-5 max-w-sm text-sm leading-relaxed text-[#191919]/80">
                         Every organization has unique goals and data requirements. If our
                         packages don&apos;t perfectly match your needs, we&apos;ll design
                         a custom analytics solution built around your business.
