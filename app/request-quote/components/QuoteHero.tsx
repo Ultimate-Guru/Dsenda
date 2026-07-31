@@ -15,7 +15,7 @@ const QuoteHero = () => {
                     Tell us about your business, your goals, and your data needs. We&apos;ll review your requirements and provide a customized solution and quotation tailored to your organization.
                 </p>
                 <Link
-                    href="/"
+                    href="#quote-form"
                     className="mt-8 inline-flex items-center gap-2 rounded-lg px-5 py-3 text-sm font-medium text-white bg-[#4F46E5] shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]">
                     Schedule A Consultation
                     <ArrowRight className="h-4 w-4" />

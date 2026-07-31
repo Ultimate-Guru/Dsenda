@@ -90,7 +90,7 @@ const QuoteForm = () => {
     const isLastStep = step === STEPS.length - 1
 
     return (
-        <section className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-6 py-20 lg:grid-cols-[280px_1fr] lg:px-8">
+        <section id="quote-form" className="mx-auto grid max-w-7xl grid-cols-1 gap-20 px-6 py-20 lg:grid-cols-[280px_1fr] lg:px-8">
             <div className="lg:sticky lg:top-24 lg:self-start">
                 <StepIndicator currentStep={step} onStepClick={goToStep} />
                 <TrustBadge />
