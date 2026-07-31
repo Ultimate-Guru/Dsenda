@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function SolutionsHero() {
     return (
@@ -16,12 +17,12 @@ export default function SolutionsHero() {
                 their data.
             </p>
 
-            <button
-                type="button"
+            <Link
+                href="/how-it-works"
                 className="mt-8 inline-flex items-center gap-2 rounded-lg bg-[#4F46E5] px-3 py-3 text-sm font-medium text-white transition-colors hover:bg-[#4338CA]">
                 Explore Our Solutions
                 <ArrowRight className="h-4 w-4 mb-1" />
-            </button>
+            </Link>
 
             <div className="relative mx-auto mt-16 h-88.25 w-82.25 max-w-md overflow-hidden rounded-4xl bg-[#EDEDFC] rounded-bl-4xl rounded-br-[200px]">
                 <Image
