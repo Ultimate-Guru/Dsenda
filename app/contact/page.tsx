@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
 import ContactHero from "./components/ContactHero";
 import ContactForm from "./components/ContactForm";
-import FasterAnswer from "./components/FasterAnswer";
 import Footer from "@/components/Footer";
+import FasterAnswer from './components/FasterAnswer';
 
 export const metadata: Metadata = {
-  title: 'Contact | Dsenda',
-  description: 'Get in touch with Dsenda to discuss your data challenges, analytics goals, and business solutions.',
+  title: 'Join the Waitlist | Dsenda',
+  description: 'Join the Dsenda waitlist for early access to clearer, more useful business data.',
 }
 
 export default function ContactPage() {

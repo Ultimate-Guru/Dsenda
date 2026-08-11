@@ -1,30 +1,37 @@
-import { ArrowRight } from "lucide-react";
-import Link from "next/link"
+import { Check } from "lucide-react";
 
 export default function ContactHero() {
   return (
-    <section className="px-6 pb-10 pt-36 lg:px-8">
-      <div className="mx-auto max-w-3xl text-center">
-        <h1 className="text-4xl font-semibold leading-tight tracking-tight text-[#191919] sm:text-5xl">
-          Let&apos;s Talk About Your
-          <span className="block">
-            Business <span className="text-[#4F46E5]">Data</span>
-          </span>
-        </h1>
+    <section className="relative overflow-hidden px-6 pb-12 pt-32 lg:px-8 lg:pt-40">
 
-        <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-[#191919]">
-          Whether you&apos;re looking for a custom analytics solution, have
-          questions about our services, or need expert guidance, our team is
-          here to help.
+      <div className="mx-auto max-w-3xl text-center">
+
+        <p className="mx-auto inline-flex items-center gap-2 rounded-full border border-[#C7D2FE] bg-[#EEF2FF] px-3 py-1.5 text-xs font-semibold uppercase tracking-[0.12em] text-[#4338CA]">
+          <span className="h-1.5 w-1.5 rounded-full bg-[#4F46E5]" />
+          Early access
         </p>
 
-        <Link
-          href="/request-quote"
-          className="mt-7 inline-flex h-11 items-center justify-center gap-2 rounded-lg bg-[#4F46E5] px-3 text-sm font-medium text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA]">
-          Schedule A Consultation
-          <ArrowRight className="h-4 w-4" />
-        </Link>
+        <h1 className="mt-6 text-4xl font-semibold text-[#191919] sm:text-5xl lg:text-6xl">
+          Make your business data
+          <span className="block text-[#4F46E5]">work harder.</span>
+        </h1>
+
+        <p className="mx-auto mt-6 max-w-2xl text-base leading-7 text-[#4B5563] sm:text-lg">
+          Dsenda is building a simpler way for teams to turn scattered data
+          into timely, confident decisions. Join the waitlist to be first in line.
+        </p>
+
+        <div className="mt-7 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-[#4B5563]">
+          {['Early product updates', 'Priority onboarding', 'No spam'].map((item) => (
+            <span key={item} className="inline-flex items-center gap-1.5">
+              <Check className="h-4 w-4 text-[#4F46E5]" aria-hidden="true" />
+              {item}
+            </span>
+          ))}
+        </div>
+
       </div>
+
     </section>
   );
 }
