@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Navbar from '@/components/Navbar';
 import ContactHero from "./components/ContactHero";
 import ContactForm from "./components/ContactForm";
 import Footer from "@/components/Footer";
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="overflow-x-hidden">
+      <Navbar />
       <ContactHero />
       <ContactForm />
       <FasterAnswer />

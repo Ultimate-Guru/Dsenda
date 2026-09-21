@@ -1,4 +1,5 @@
 import type { Metadata } from "next" 
+import Navbar from "@/components/Navbar";
 import WorksHero from "./components/WorksHero";
 import ProcessSection from "./components/ProcessSection";
 import Banner from "@/components/Banner";
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <main>
+      <Navbar />
       <WorksHero />
       <ProcessSection />
       <Banner />

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Navbar from '@/components/Navbar'
 import QuoteHero from "./components/QuoteHero"
 import QuoteForm from "./components/QuoteForm"
 import ProcessSteps from "./components/ProcessSteps"
@@ -12,6 +13,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <main>
+      <Navbar />
       <QuoteHero />
       <QuoteForm />
       <ProcessSteps />

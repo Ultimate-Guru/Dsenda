@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Navbar from '@/components/Navbar'
 import Banner from '@/components/Banner'
 import CompareFeatures from './components/CompareFeatures'
 import CustomSolution from './components/CustomSolution'
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <main>
+      <Navbar />
       <PricingHero />
       <PricingCards />
       <CustomSolution />

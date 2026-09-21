@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Navbar from '@/components/Navbar'
 import AboutHero from '@/app/about/components/AboutHero'
 import Transform from '@/app/about/components/Transform'
 import Simplify from '@/app/about/components/Simplify'
@@ -15,6 +16,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <main>
+      <Navbar />
       <AboutHero />
       <Transform />
       <Simplify />

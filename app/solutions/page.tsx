@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Navbar from '@/components/Navbar'
 import Solutionshero from "./components/Solutionshero"
 import Analytics from "@/app/solutions/components/Analytics"
 import WhyChooseUs from "./components/Whychooseus"
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <main>
+      <Navbar />
       <Solutionshero />
       <Analytics />
       <WhyChooseUs />

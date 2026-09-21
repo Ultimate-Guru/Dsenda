@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import React from 'react'
+import Navbar from '@/components/Navbar'
 import IndustryHero from './components/IndustryHero'
 import IndustryGrid from './components/IndustryGrid'
 import CapabilitySection from './components/CapabilitySection'
@@ -14,6 +15,7 @@ export const metadata: Metadata = {
 const page = () => {
   return (
     <main>
+      <Navbar />
       <IndustryHero />
       <IndustryGrid />
       <CapabilitySection />
