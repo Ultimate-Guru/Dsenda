@@ -39,11 +39,11 @@ export default function ContactForm() {
             required
             autoComplete="email"
             placeholder="Enter your work email"
-            className="h-12 min-w-0 flex-1 rounded-xl border border-[#D1D5DB] bg-white px-4 text-sm text-[#111827] outline-none transition placeholder:text-[#9CA3AF] focus:border-[#4F46E5] focus:ring-2 focus:ring-[#C7D2FE]/60"
+            className="h-12 min-h-10 w-full flex-1 rounded-xl border border-[#D1D5DB] bg-white px-4 text-sm text-[#111827] outline-none transition placeholder:text-[#9CA3AF] focus:border-[#4F46E5] focus:ring-2 focus:ring-[#C7D2FE]/60"
           />
           <button
             type="submit"
-            className="inline-flex h-12 shrink-0 items-center justify-center gap-2 rounded-lg bg-[#4F46E5] px-3 text-sm font-semibold text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA] cursor-pointer"
+            className="inline-flex h-12 w-full shrink-0 items-center justify-center gap-2 rounded-xl bg-[#4F46E5] px-5 text-sm font-semibold text-white shadow-[0_4px_0_#C8C6F7] transition-colors hover:bg-[#4338CA] sm:w-auto cursor-pointer"
           >
             Join waitlist
             <ArrowRight className="h-4 w-4" aria-hidden="true" />
