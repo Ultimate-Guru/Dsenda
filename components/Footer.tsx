@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { FaInstagram, FaFacebook, FaLinkedin, FaYoutube, FaEnvelope } from 'react-icons/fa'
+import { FaInstagram, FaTiktok, FaLinkedin, FaEnvelope } from 'react-icons/fa'
 
 const columns = [
   {
@@ -45,11 +45,10 @@ const columns = [
 ];
 
 const socials = [
-  { icon: FaInstagram, href: "#" },
-  { icon: FaEnvelope, href: "#" },
-  { icon: FaFacebook, href: "#" },
-  { icon: FaYoutube, href: "#" },
-  { icon: FaLinkedin, href: "#" },
+  { icon: FaInstagram, href: "https://www.instagram.com/dsendaintelligence" },
+  { icon: FaEnvelope, href: "https://mail.google.com/mail/?view=cm&fs=1&to=dsendaintelligence%40gmail.com" },
+  { icon: FaTiktok, href: "https://www.tiktok.com/@dsendaintelligence" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/company/dsenda/" },
 ];
 
 const Footer = () => {
@@ -63,6 +62,8 @@ const Footer = () => {
               <a
                 key={i}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-6 h-10 grid place-items-center">
                 <Icon className="w-6 h-6 text-black" />
               </a>
